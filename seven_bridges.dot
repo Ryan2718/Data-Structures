@@ -1,0 +1,10 @@
+graph "graph" {
+    graph [overlap = scale]
+    "node 1" -- "node 0"
+    "node 1" -- "node 0"
+    "node 2" -- "node 0"
+    "node 2" -- "node 1"
+    "node 3" -- "node 0"
+    "node 3" -- "node 0"
+    "node 3" -- "node 2"
+}
