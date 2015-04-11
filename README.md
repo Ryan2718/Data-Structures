@@ -21,5 +21,5 @@ This problem was very influential in the study of Graph Theory. The problem is t
 
 You want to cross all seven bridges exactly one time. Can you do this? You do not have to end up where you started.
 
-Euler proved that you cannot do this. The graph corresponding to this problem has no Eulerian path - a path in which every edge is visited once and only once. More information can be found at the Wikipedia page
-[wikipedia page](http://en.wikipedia.org/wiki/Seven_Bridges_of_Königsberg).
+Euler proved that you cannot do this. The graph corresponding to this problem has no Eulerian path - a path in which every edge is visited once and only once. More information can be found at the Wikipedia page 
+[Seven Bridges of Konigsberg](http://en.wikipedia.org/wiki/Seven_Bridges_of_Königsberg).
