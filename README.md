@@ -23,3 +23,10 @@ You want to cross all seven bridges exactly one time. Can you do this? You do no
 
 Euler proved that you cannot do this. The graph corresponding to this problem has no Eulerian path - a path in which every edge is visited once and only once. More information can be found at the Wikipedia page 
 [Seven Bridges of Konigsberg](http://en.wikipedia.org/wiki/Seven_Bridges_of_Königsberg).
+
+### UMD Course Pre-Requisites
+There's a cool API for UMD data at [umd.io](http://umd.io).
+
+Using data from that API and the graph data structure in graph.py we can draw the following graph of course pre-requisites
+for the Computer Science department by calling `umd.pre_reqs_graph("CMSC")`
+![cs](https://cloud.githubusercontent.com/assets/8814511/7126176/2732b3ca-e205-11e4-9a00-5ac2a954dde5.png)
