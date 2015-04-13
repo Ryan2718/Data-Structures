@@ -25,7 +25,7 @@ Euler proved that you cannot do this. The graph corresponding to this problem ha
 [Seven Bridges of Konigsberg](http://en.wikipedia.org/wiki/Seven_Bridges_of_Königsberg).
 
 ### UMD Course Pre-Requisites
-There's a cool API for UMD data at ![umd.io](http://umd.io).
+There's a cool API for UMD data at [umd.io](http://umd.io).
 
 Using data from that API and the graph data structure in graph.py we can draw the following graph of course pre-requisites
 for the Computer Science department by calling `umd.pre_reqs_graph("CMSC")`
