@@ -32,7 +32,10 @@ for the Computer Science department by calling `umd.pre_reqs_graph("CMSC")`
 ![cs](https://cloud.githubusercontent.com/assets/8814511/7126176/2732b3ca-e205-11e4-9a00-5ac2a954dde5.png)
 
 There's a few remaining issues with umd.py:
+
 1. MATH115's prereqs include "eligibility of MATH115" which the program reads in as the course having itself as a prereq.
+
 2. Sometimes a course may end up having multiple arrows to its prereqs. For instance, it looks like CMSC430 has two arrows
-   going to CMSC351
+   going to CMSC351.
+
 3. There's still a few issues in having the right prereqs drawn. For instance, CMSC456 has no arrow to CMSC351, MATH240 has        no arrow to MATH141, and CMSC427 has no arrow to CMSC420.
