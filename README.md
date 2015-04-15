@@ -1,11 +1,16 @@
 # Data-Structures
-Repository for various data structures.
+Repository for various data structures, implemented in various languages.
+
+* PythonGraph
+   * Seven Bridges of Konigsberg
+   * UMD Course Pre-Requisites
+* HaskellGraph
 
 ## PythonGraph
 Graph data structure implemented in Python using an adjacency matrix. The graph is unweighted, but
 multiple edges are allowed between nodes.
 
-One interesting method is the to_dot method which createsa dot file from the current graph object.
+One interesting method is the to_dot method which creates a dot file from the current graph object.
 GraphViz allows us to actually see the graph we are working with.
 
 To create a png file from the dot file:
@@ -39,3 +44,8 @@ There's a few remaining issues with umd.py:
    going to CMSC351.
 
 3. There's still a few issues in having the right prereqs drawn. For instance, CMSC456 has no arrow to CMSC351, MATH240 has        no arrow to MATH141, and CMSC427 has no arrow to CMSC420.
+
+## HaskellGraph
+
+There are many ways to implement graphs. I used an adjacency matrix for representing a graph with Python.
+In Haskell, it made more sense to keep a list of all the edges.
