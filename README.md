@@ -5,6 +5,7 @@ Repository for various data structures, implemented in various languages.
    * Seven Bridges of Konigsberg
    * UMD Course Pre-Requisites
 * HaskellGraph
+* PythonTree
 * HaskellTree
 
 ## PythonGraph
@@ -50,6 +51,10 @@ There's a few remaining issues with umd.py:
 
 There are many ways to implement graphs. I used an adjacency matrix for representing a graph with Python.
 In Haskell, it made more sense to keep a list of all the edges.
+
+## PythonTree
+
+Binary Search Tree implemented in Python.
 
 ## HaskellTree
 
