@@ -74,8 +74,8 @@ insertMultiple tree elements = foldl insert tree elements
 -- | Search for an item in the tree
 search :: (Ord a) => Tree a -> a -> Bool
 search None element = False
-search (Node n left right) element =
-    if (element < n)
-    then search left element
-    else search right element
+search (Node n left right) element
+   | element < n  = search left element
+   | element > n  = search right element
+   | element == n = True
     
