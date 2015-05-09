@@ -49,3 +49,7 @@ There's a few remaining issues with umd.py:
 
 There are many ways to implement graphs. I used an adjacency matrix for representing a graph with Python.
 In Haskell, it made more sense to keep a list of all the edges.
+
+## HaskellTree
+
+Binary Search Tree implemented in Haskell.
