@@ -5,6 +5,7 @@ Repository for various data structures, implemented in various languages.
    * Seven Bridges of Konigsberg
    * UMD Course Pre-Requisites
 * HaskellGraph
+* HaskellTree
 
 ## PythonGraph
 Graph data structure implemented in Python using an adjacency matrix. The graph is unweighted, but
