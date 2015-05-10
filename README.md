@@ -7,6 +7,7 @@ Repository for various data structures, implemented in various languages.
 * HaskellGraph
 * PythonTree
 * HaskellTree
+* OCamlTree
 
 ## PythonGraph
 Graph data structure implemented in Python using an adjacency matrix. The graph is unweighted, but
@@ -59,3 +60,7 @@ Binary Search Tree implemented in Python.
 ## HaskellTree
 
 Binary Search Tree implemented in Haskell.
+
+## OCamlTree
+
+Binary Search Tree implemented in OCaml.
