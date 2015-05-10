@@ -8,11 +8,14 @@ May 8, 2015
 
 module BinarySearchTree (
     Tree(None),
+    -- * Tree Traversals
     inOrder,
     preOrder,
     postOrder,
+    -- * Insertion
     insert,
     insertMultiple,
+    -- * Searching
     search,
 ) where
 
@@ -60,7 +63,7 @@ postOrder (Node n left right) = (postOrder left) ++ (postOrder right) ++ [n]
 -- Insertion
 
 -- | Insert an element into the tree
-insert :: (Ord a) => Tree a ->  a -> Tree a
+insert :: (Ord a) => Tree a -> a -> Tree a
 insert None element = Node element None None
 insert (Node n left right) element =
     if (element < n)
@@ -82,4 +85,4 @@ search (Node n left right) element
    | element > n  = search right element
    | element == n = True
    | otherwise = error "Impossible"
-    
+   
